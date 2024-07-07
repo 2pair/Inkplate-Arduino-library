@@ -142,7 +142,7 @@ class System : public Esp,
     int16_t sdCardInit();
     void sdCardSleep();
 
-    SdFat getSdFat();
+    SdFat& getSdFat();
     SPIClass *getSPIptr();
 
     virtual int _getRotation() = 0; // required in Touch
