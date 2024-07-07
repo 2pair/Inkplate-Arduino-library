@@ -189,7 +189,7 @@ void System::sdCardSleep()
  *
  * @return      sd card class object
  */
-SdFat System::getSdFat()
+SdFat& System::getSdFat()
 {
     return sd;
 }
